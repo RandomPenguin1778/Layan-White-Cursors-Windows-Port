@@ -1,0 +1,65 @@
+; Layan White Bordered Cursors
+; https://github.com/RandomPenguin1778/Layan-White-Cursors-Windows-Port
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Normal.cur
+Help.cur
+Loading.ani
+Busy.ani
+Text.cur
+Unavailable.cur
+vertical_resize.cur
+horizontal_resize.cur
+diagonal_resize1.cur
+diagonal_resize2.cur
+Move.cur
+Link-Select.cur
+Precision.cur
+Handwriting.cur
+Alternate.cur
+Location.cur
+alias.cur
+grabbing.cur
+zoom-in.cur
+zoom-out.cur
+[Strings]
+CUR_DIR       = "Cursors\Layan White Bordered Cursors"
+SCHEME_NAME   = "Layan White Bordered Cursors"
+pointer       = "Normal.cur"
+help          = "Help.cur"
+work          = "Loading.ani"
+busy          = "Busy.ani"
+text          = "Text.cur"
+unavailiable  = "Unavailable.cur"
+vert          = "horizontal_resize.cur"
+horz          = "vertical_resize.cur"
+dgn1          = "diagonal_resize1.cur"
+dgn2          = "diagonal_resize2.cur"
+move          = "Move.cur"
+link          = "Link-Select.cur"
+cross         = "Precision.cur"
+hand          = "Handwriting.cur"
+alternate     = "Alternate.cur"
+pin           = "Location.cur"
+person        = "alias.cur"
+pan           = "openhand.cur"
+grab          = "Move.cur"
+grabbing      = "grabbing.cur"
+zoom-in       = "zoom-in.cur"
+zoom-out      = "zoom-out.cur"
